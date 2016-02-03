@@ -30,14 +30,20 @@ import android.widget.TextView;
  * @author 
  */
 public class MainActivity extends Activity {
-	private ListView mListView;//商品listView
+	/** 商品listView **/
+	private ListView mListView;
 	private Context mContext;
 	private ProductAdapter productAdapter;
-	private ImageView shopCart;//购物车
-	private ViewGroup anim_mask_layout;//动画层
-	private ImageView buyImg;// 这是在界面上跑的小图片
-	private int buyNum = 0;//购买数量
-	private BadgeView buyNumView;//显示购买数量的控件
+	/** 购物车 **/
+	private ImageView shopCart;
+	/** 动画层**/
+	private ViewGroup anim_mask_layout;
+	/** 这是在界面上跑的小图片 **/
+	private ImageView buyImg; 
+	/** 购买数量 **/
+	private int buyNum = 0;
+	/** 显示购买数量的控件 **/
+	private BadgeView buyNumView;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
