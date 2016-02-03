@@ -27,9 +27,7 @@ import android.widget.TextView;
 
 /**
  * ListView的加入购物车动画
- * 
- * @author OutTime
- * 
+ * @author 
  */
 public class MainActivity extends Activity {
 	private ListView mListView;//商品listView

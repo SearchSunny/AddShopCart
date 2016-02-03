@@ -24,8 +24,9 @@ import android.widget.TextView;
 /**
  * A simple text label view that can be applied as a "badge" to any given {@link android.view.View}. 
  * This class is intended to be instantiated at runtime rather than included in XML layouts.
+ * 显示购买数量的控件
+ * @author
  * 
- * @author Jeff Gilfelt
  */
 public class BadgeView extends TextView {
 
